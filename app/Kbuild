@@ -1,0 +1,2 @@
+obj-y += src/
+obj-y += src/st_ai_ws/NetworkRuntime1201_CM4_GCC.a

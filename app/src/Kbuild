@@ -1,0 +1,3 @@
+obj-y += app.o
+obj-y += st_ai_ws/
+
