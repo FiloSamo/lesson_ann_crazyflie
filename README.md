@@ -128,20 +128,13 @@ make -j$(nproc)
 
 ```
 
-6.  Navigate to the *app* directory on your local machine:
-
-```bash
-cd app
-
-```
-
-7. Flash the Crazyflie firmware. With the Crazyflie turned off, press and hold the power button for three seconds until the blue LEDs light up to enter bootloader mode. Then, run the following command:
+6. Flash the Crazyflie firmware. With the Crazyflie turned off, press and hold the power button for three seconds until the blue LEDs light up to enter bootloader mode. Then, run the following command:
 
 ```bash
 cfloader flash build/cf2.bin stm32-fw
 ```
 
-8. To run the inference, execute the *inference_server.py* script. The server will send MNIST test samples to the Crazyflie and wait for its predictions.
+7. To run the inference, execute the *inference_server.py* script. The server will send MNIST test samples to the Crazyflie and wait for its predictions.
 
 ```bash
 cd ..

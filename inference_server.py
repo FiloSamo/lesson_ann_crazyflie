@@ -49,7 +49,7 @@ import numpy as np
 logging.basicConfig(level=logging.ERROR)
 
 DATA_PATH = "./data"
-URI = "radio://0/70/2M/E7E7E7E7EC"
+URI = "radio://0/50/2M/E7E7E7E7E8"
 
 def console_received(data):
         '''

@@ -4,3 +4,5 @@ venv/
 st_ai_ws/
 build/
 *.o
+*.cmd
+*

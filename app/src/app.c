@@ -55,7 +55,6 @@
 
 #include "st_ai_ws/network.h"
 
-#define SIMULATION_STEPS 10
 #define SENDED_DATA_SIZE 7
 
 /* Global byte buffer to save instantiated C-model network context */
@@ -74,8 +73,6 @@ static float in_data[STAI_NETWORK_IN_1_SIZE];
 /* c-array to store the data of the output tensor */
 STAI_ALIGNED(STAI_NETWORK_OUT_1_ALIGNMENT)
 static float out_data[STAI_NETWORK_OUT_1_SIZE];
-
-static float out_acc[STAI_NETWORK_OUT_1_SIZE];
 /* static uint8_t out_data[STAI_NETWORK_OUT_1_SIZE_BYTES]; */
 
 struct mnistPacketRX {
